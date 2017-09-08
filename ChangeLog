@@ -1,0 +1,16 @@
+   2005-mm-dd, version 0.6:
+	* first change
+	* second change
+
+--- old entries ---
+   V0.5: 'ORR sX, sY' assembled to 'ORR sX, kk' where kk was undefined
+         'SUBCY sX, sY' simulated wrongly (undefined behaviour)
+         'SUBCY sX, kk' simulated wrongly (undefined behaviour)
+         Save/Restore settings on open/close. (Not everything yet)
+         Popupmenu in serial view.
+   V0.4: Added the debug toolbar
+   V0.3: Added export to *.HEX and *.MEM files
+   V0.2: Made assembler more verbose
+         Added icons
+         Improved debugger
+   V0.1: Initial Version

@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-30 22:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: kpicosim.cpp:128 kpicosim.cpp:185
+msgid "New"
+msgstr ""
+
+#: kpicosim.cpp:135 kpicosim.cpp:213
+msgid "Compile"
+msgstr ""
+
+#: kpicosim.cpp:136
+msgid "Start/Stop Debug"
+msgstr ""
+
+#: kpicosim.cpp:140 kpicosim.cpp:218
+msgid "Next"
+msgstr ""
+
+#: kpicosim.cpp:142 kpicosim.cpp:220
+msgid "Reset"
+msgstr ""
+
+#: kpicosim.cpp:151
+msgid "Line"
+msgstr ""
+
+#: kpicosim.cpp:152
+msgid "Description"
+msgstr ""
+
+#: kpicosim.cpp:160 kpicosim.cpp:562
+msgid "Mode: Edit"
+msgstr ""
+
+#: kpicosim.cpp:161 kpicosim.cpp:434
+msgid "Status: Stopped"
+msgstr ""
+
+#: kpicosim.cpp:162
+msgid "Instructions: 0"
+msgstr ""
+
+#: kpicosim.cpp:191
+msgid "Print..."
+msgstr ""
+
+#: kpicosim.cpp:207
+msgid "Find..."
+msgstr ""
+
+#: kpicosim.cpp:214 kpicosim.cpp:553
+msgid "Start Debug"
+msgstr ""
+
+#: kpicosim.cpp:219
+msgid "Interrupt"
+msgstr ""
+
+#: kpicosim.cpp:223
+msgid "Toggle Breakpoint"
+msgstr ""
+
+#: kpicosim.cpp:226
+msgid "Configure Editor..."
+msgstr ""
+
+#: kpicosim.cpp:229
+msgid "I/O Port"
+msgstr ""
+
+#: kpicosim.cpp:230
+msgid "Scratchpad"
+msgstr ""
+
+#: kpicosim.cpp:231
+msgid "Serial port"
+msgstr ""
+
+#: kpicosim.cpp:234
+msgid "Download"
+msgstr ""
+
+#: kpicosim.cpp:254
+msgid "Debug"
+msgstr ""
+
+#: kpicosim.cpp:255
+msgid "Peripheral"
+msgstr ""
+
+#: kpicosim.cpp:256
+msgid "JTAG"
+msgstr ""
+
+#: kpicosim.cpp:257
+msgid "Settings"
+msgstr ""
+
+#: kpicosim.cpp:287
+msgid "This function is not supported yet"
+msgstr ""
+
+#: kpicosim.cpp:287
+msgid "Export COE"
+msgstr ""
+
+#: kpicosim.cpp:335 kpicosim.cpp:521
+msgid "File '"
+msgstr ""
+
+#: kpicosim.cpp:335
+msgid "exported"
+msgstr ""
+
+#: kpicosim.cpp:336
+msgid "Template file '"
+msgstr ""
+
+#: kpicosim.cpp:336
+msgid "' used"
+msgstr ""
+
+#: kpicosim.cpp:337
+msgid "***Export Success***"
+msgstr ""
+
+#: kpicosim.cpp:339
+msgid "***Export failed***"
+msgstr ""
+
+#: kpicosim.cpp:427
+msgid "Status: Running"
+msgstr ""
+
+#: kpicosim.cpp:436 kpicosim.cpp:476
+msgid "Instructions: "
+msgstr ""
+
+#: kpicosim.cpp:521
+msgid "' saved"
+msgstr ""
+
+#: kpicosim.cpp:525
+msgid "***Compile Success*** "
+msgstr ""
+
+#: kpicosim.cpp:528
+msgid "***Compile Failed*** "
+msgstr ""
+
+#: kpicosim.cpp:540
+msgid " [Debugging]"
+msgstr ""
+
+#: kpicosim.cpp:541
+msgid "Stop Debug"
+msgstr ""
+
+#: kpicosim.cpp:560
+msgid "Mode: Debug"
+msgstr ""
+
+#: main.cpp:29
+msgid "A KDE KPart Application"
+msgstr ""
+
+#: main.cpp:41
+msgid "KPicoSim"
+msgstr ""
+
+#: rc.cpp:3
+#, no-c-format
+msgid "C&ustom"
+msgstr ""

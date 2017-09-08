@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<!--
+This program, including associated files, is free software.  You may
+distribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either Version 2 of
+the license, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+-->
+
+<language name="pblazeASM" version="1.02" kateversion="2.1" section="Assembler" extensions="*.psm" mimetype="text/x-psm" author="Mark Six" license="GPL">
+  <highlighting>
+    <list name="instructions">
+		<item> ADD </item>
+		<item> ADDCY </item>
+		<item> AND </item>
+		<item> CALL </item>
+		<item> COMPARE </item>
+		<item> FETCH </item>
+		<item> INPUT </item>
+		<item> JUMP </item>
+		<item> LOAD </item>
+		<item> OR </item>
+		<item> OUTPUT </item>
+		<item> RETURN </item>
+		<item> RETURNI </item>
+		<item> ROTATE </item>
+		<item> RL </item>
+		<item> RR </item>
+		<item> SL0 </item>
+		<item> SL1 </item>
+		<item> SLA </item>
+		<item> SLX </item>
+		<item> SR0 </item>
+		<item> SR1 </item>
+		<item> SRA </item>
+		<item> SRX </item>
+		<item> STORE </item>
+		<item> SUB </item>
+		<item> SUBCY </item>
+		<item> TEST </item>
+		<item> XOR </item>
+		<item> DISABLE </item>
+		<item> ENABLE </item>
+    </list>
+
+	<list name="instruction_attr">
+		<item> NZ </item>
+		<item> Z </item>
+		<item> C </item>
+		<item> NC </item>
+		<item> INTERRUPT </item>
+		<item> DISABLE </item>
+		<item> ENABLE </item>
+		<item> s0 </item>
+		<item> s1 </item>
+		<item> s2 </item>
+		<item> s3 </item>
+		<item> s4 </item>
+		<item> s5 </item>
+		<item> s6 </item>
+		<item> s7 </item>
+		<item> s8 </item>
+		<item> s9 </item>
+		<item> sA </item>
+		<item> sB </item>
+		<item> sC </item>
+		<item> sD </item>
+		<item> sE </item>
+		<item> sF </item>
+	</list>
+	
+    <list name="directives">
+		<item> constant </item>
+		<item> namereg </item>
+		<item> address </item>
+    </list>
+
+
+    <contexts>
+		<!-- The main context -->
+		<context  name="Normal" attribute="Normal Text" lineEndContext="#stay">
+			<keyword attribute="Instructions" context="Opcode" String="instructions"/>
+			<keyword attribute="Directives" context="Opcode" String="directives"/>
+			<DetectChar attribute="Comment" context="Comment" char=";" />
+      </context>
+	  
+      <context name="Comment" attribute="Comment" lineEndContext="#pop" />
+	  
+	  <context name="Opcode" attribute="Opcode" lineEndContext="#pop">
+		  <keyword attribute="InstructionAttr" context="#stay" String="instruction_attr"/>
+		  <DetectChar attribute="Comment" context="Comment" char=";" />
+	  </context>
+    </contexts>
+
+    <itemDatas>
+		<itemData name="Normal Text"      defStyleNum="dsNormal"/>
+		<itemData name="Directives"       defStyleNum="dsOthers"/>
+		<itemData name="Instructions"     defStyleNum="dsKeyword"/>
+		<itemData name="InstructionAttr"  defStyleNum="dsNormal" color="#000080" selColor="#000080" bold="0" italic="1"/>
+		<itemData name="Comment"          defStyleNum="dsComment" />
+    </itemDatas>
+  </highlighting>
+
+  <general>
+    <comments>
+      <comment name="singleLine" start=";" />
+    </comments>
+    <keywords casesensitive="0" weakDeliminator="_.$" />
+  </general>
+</language>

@@ -1,0 +1,16 @@
+Source: kpicosim
+Section: kde
+Priority: optional
+Maintainer: Adrian Knoth <adi@thur.de> 
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, automake1.9, kdelibs4-dev
+Standards-Version: 3.6.2
+
+Package: kpicosim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: IDE and simulator for the Xilinx PicoBlaze-3
+ kpicosim is a development environment for the Xilinx 
+ PicoBlaze-3 soft-core processor for the KDE Desktop (Linux).
+ The environment has an editor with syntax highlighting, compiler,
+ simulator and export functions to VHDL, HEX and MEM files.
+

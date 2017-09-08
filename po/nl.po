@@ -1,0 +1,200 @@
+# translation of nl.po to
+# Mark Six <sikz@xs4all.nl>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-30 21:54+0100\n"
+"PO-Revision-Date: 2005-11-30 22:41+0100\n"
+"Last-Translator: Mark Six <sikz@xs4all.nl>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Mark Six"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "m6@xs4all.nl,sikz@xs4all.nl"
+
+#: kpicosim.cpp:128 kpicosim.cpp:185
+msgid "New"
+msgstr "Nieuw"
+
+#: kpicosim.cpp:135 kpicosim.cpp:213
+msgid "Compile"
+msgstr "Compileer"
+
+#: kpicosim.cpp:136
+msgid "Start/Stop Debug"
+msgstr "Start/Stop Debug"
+
+#: kpicosim.cpp:140 kpicosim.cpp:218
+msgid "Next"
+msgstr "Volgende"
+
+#: kpicosim.cpp:142 kpicosim.cpp:220
+msgid "Reset"
+msgstr "Reset"
+
+#: kpicosim.cpp:151
+msgid "Line"
+msgstr "Regel"
+
+#: kpicosim.cpp:152
+msgid "Description"
+msgstr "Omschrijving"
+
+#: kpicosim.cpp:160 kpicosim.cpp:562
+msgid "Mode: Edit"
+msgstr "Mode: Aanpasbaar"
+
+#: kpicosim.cpp:161 kpicosim.cpp:434
+msgid "Status: Stopped"
+msgstr "Mode: gestopt"
+
+#: kpicosim.cpp:162
+msgid "Instructions: 0"
+msgstr "Instructies:"
+
+#: kpicosim.cpp:191
+msgid "Print..."
+msgstr "Print..."
+
+#: kpicosim.cpp:207
+msgid "Find..."
+msgstr "Zoek..."
+
+#: kpicosim.cpp:214 kpicosim.cpp:553
+msgid "Start Debug"
+msgstr "Start debug"
+
+#: kpicosim.cpp:219
+msgid "Interrupt"
+msgstr "Interrupt"
+
+#: kpicosim.cpp:223
+msgid "Toggle Breakpoint"
+msgstr ""
+
+#: kpicosim.cpp:226
+msgid "Configure Editor..."
+msgstr "Configureer tekstverwerker..."
+
+#: kpicosim.cpp:229
+msgid "I/O Port"
+msgstr "I/O Poort"
+
+#: kpicosim.cpp:230
+msgid "Scratchpad"
+msgstr "Kladblok"
+
+#: kpicosim.cpp:231
+msgid "Serial port"
+msgstr "Serieele poort"
+
+#: kpicosim.cpp:234
+msgid "Download"
+msgstr "Download"
+
+#: kpicosim.cpp:254
+msgid "Debug"
+msgstr "Debug"
+
+#: kpicosim.cpp:255
+msgid "Peripheral"
+msgstr ""
+
+#: kpicosim.cpp:256
+msgid "JTAG"
+msgstr "JTAG"
+
+#: kpicosim.cpp:257
+msgid "Settings"
+msgstr "Instellingen"
+
+#: kpicosim.cpp:287
+msgid "This function is not supported yet"
+msgstr "Deze functie wordt nog niet ondersteund."
+
+#: kpicosim.cpp:287
+msgid "Export COE"
+msgstr ""
+
+#: kpicosim.cpp:335 kpicosim.cpp:521
+msgid "File '"
+msgstr "Bestand '"
+
+#: kpicosim.cpp:335
+msgid "exported"
+msgstr "uitgevoerd"
+
+#: kpicosim.cpp:336
+msgid "Template file '"
+msgstr ""
+
+#: kpicosim.cpp:336
+msgid "' used"
+msgstr ""
+
+#: kpicosim.cpp:337
+msgid "***Export Success***"
+msgstr "*** Uitvoer succes ****"
+
+#: kpicosim.cpp:339
+msgid "***Export failed***"
+msgstr "*** Uitvoer fout ***"
+
+#: kpicosim.cpp:427
+msgid "Status: Running"
+msgstr "Status: Bezig"
+
+#: kpicosim.cpp:436 kpicosim.cpp:476
+msgid "Instructions: "
+msgstr "Instructies:"
+
+#: kpicosim.cpp:521
+msgid "' saved"
+msgstr "' opgeslagen"
+
+#: kpicosim.cpp:525
+msgid "***Compile Success*** "
+msgstr "*** Compileer succes ***"
+
+#: kpicosim.cpp:528
+msgid "***Compile Failed*** "
+msgstr "*** Compileer fout ***"
+
+#: kpicosim.cpp:540
+msgid " [Debugging]"
+msgstr "[Debuggen]"
+
+#: kpicosim.cpp:541
+msgid "Stop Debug"
+msgstr "Stop Debug"
+
+#: kpicosim.cpp:560
+msgid "Mode: Debug"
+msgstr "Mode: Debug"
+
+#: main.cpp:29
+msgid "A KDE KPart Application"
+msgstr "Een KDE KPart applicatie"
+
+#: main.cpp:41
+msgid "KPicoSim"
+msgstr ""
+
+#: rc.cpp:3
+#, no-c-format
+msgid "C&ustom"
+msgstr ""
+
